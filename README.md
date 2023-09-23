@@ -7,4 +7,16 @@ Aren't you tired of setting a new goal that you're so excited about, only to see
 
 
 ## Key Features
+- Goal-setting prompts
+- A username and password login to keep your account privacy and personalization
+- View of a feed of others' goals and progress
+- Personal view of goals past and present
+- Ability to create your own goals and share
+- Ability to comment on others' goals/achievements
+- Abililty to self-evaluate when a goal is not reached
+- Feed specified for one goal for all updates, pictures, and comments attributed to it
+- Goals and greater details are stored and displayed on personal profile
 ## Application of different technologies
+- **Authentication** - used to verify identity and log in to personal account
+- **Database Data** - Storing of past goals, comments, achievements, and posts, all accessible through personal profile
+- **WebSocket Data** - Used when other users react to user's posts or achievements, and used to allow user to see posts and achievements of other users.
