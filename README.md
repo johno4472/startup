@@ -19,4 +19,4 @@ Aren't you tired of setting a new goal that you're so excited about, only to see
 ## Application of different technologies
 - **Authentication** - used to verify identity and log in to personal account
 - **Database Data** - Storing of past goals, comments, achievements, and posts, all accessible through personal profile
-- **WebSocket Data** - Used when other users react to user's posts or achievements, and used to allow user to see posts and achievements of other users.
+- **WebSocket Data** - Notifications sent to user when a friend publishes a new update or reaches a new goal
