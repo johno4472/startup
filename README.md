@@ -20,3 +20,6 @@ Aren't you tired of setting a new goal that you're so excited about, only to see
 - **Authentication** - used to verify identity and log in to personal account
 - **Database Data** - Storing of past goals, comments, achievements, and posts, all accessible through personal profile
 - **WebSocket Data** - Notifications sent to user when a friend publishes a new update or reaches a new goal
+
+## Additional Notes
+https://github.com/johno4472/startup/edit/main/notes.md
