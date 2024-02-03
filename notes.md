@@ -11,6 +11,6 @@ I learned that GitHub is a SUPER useful tool! I want to be much better at coding
     2. In gitbash, call gitpull (to assure that any changes made online or by anyone else are included, to avoid conflicts)
     3. Make my changes locally
     4. Call git add, and the files that I edited
-    5. Call git commit, to save the changes
+    5. Call git commit -m "My update message here", to save the changes and make a note of what I changed
     6. Call git push, to update my github repository
     7. Call git status to make sure everything is up to date
