@@ -20,4 +20,5 @@ I learned that GitHub is a SUPER useful tool! I want to be much better at coding
     <input type='button' onclick="location.href='otherPage.html';" value="Submit"/>
 - Deploy to my server
     ./deployFiles.sh -k ~/Desktop/cs260/john-first-key.pem -h consistandsee.click -s startup
--
+- Add an image
+    <img src="image.jpg" alt="Image title for blind people" width="500" height="400">

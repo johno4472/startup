@@ -27,7 +27,7 @@ Here are some of the things that I did for the startup HTML
 -create.html lets you input a new habit you want to begin tracking, then submit it. The submit button sends you to review.html
 -report.html lets you mark the habits you have completed, one by one, then submit them. Hitting the submit button will send you to review.html
 -review.html shows with a bar how close you are to completing your fast or blitz, or how many days you have been consistent with a habit
--about.html gives an explanation of the format of the website, and how things work logistically
+-about.html gives an explanation of the format of the website, and how things work logistically; it inserts a text taken from the file aboutText.html
 -index.html takes your username, then sends you to report.html when you submit it
 
 ## Additional Notes
