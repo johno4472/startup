@@ -14,8 +14,9 @@ I learned that GitHub is a SUPER useful tool! I want to be much better at coding
     5. Call git commit -m "My update message here", to save the changes and make a note of what I changed
     6. Call git push, to update my github repository
     7. Call git status to make sure everything is up to date
-- To insert text from a file into a paragraph use this function:
+- To insert text from a file into a paragraph use this function either using iframes or objects:
     -<div><object data=textfile.txt"></object></div>
+    -<iframe src="path/to/yourfile.txt" width="100%" height="300"></iframe>
 - To create a button which takes you to another page on the site
     <input type='button' onclick="location.href='otherPage.html';" value="Submit"/>
 - Deploy to my server
