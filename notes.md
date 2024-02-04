@@ -18,3 +18,6 @@ I learned that GitHub is a SUPER useful tool! I want to be much better at coding
     -<div><object data=textfile.txt"></object></div>
 - To create a button which takes you to another page on the site
     <input type='button' onclick="location.href='otherPage.html';" value="Submit"/>
+- Deploy to my server
+    ./deployFiles.sh -k ~/Desktop/cs260/john-first-key.pem -h consistandsee.click -s startup
+-
