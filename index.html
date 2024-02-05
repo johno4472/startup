@@ -30,11 +30,15 @@
     <main>
       <h1>Welcome</h1>
       <p>Login to begin</p>
-      <form method="get" action="report.html">
-        <label for="name">Username</label>
+      <div>
         <input type="text" id="name" placeholder="Your name here" />
-        <button type="submit">Login</button>
-      </form>
+      </div>
+      <div>
+        <input type="text" id="password" placeholder="Your password here"/>
+      </div>
+      <div>
+        <input type="button" onclick="location.href='report.html';" value="Login">
+      </div>
     </main>
 
     <footer>
