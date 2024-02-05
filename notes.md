@@ -23,3 +23,33 @@ I learned that GitHub is a SUPER useful tool! I want to be much better at coding
     ./deployFiles.sh -k ~/Desktop/cs260/john-first-key.pem -h consistandsee.click -s startup
 - Add an image
     <img src="image.jpg" alt="Image title for blind people" width="500" height="400">
+
+## CSS Flex
+- set display property to 'flex' - sets all of children of element to be displayed in a flex flow
+- "flex-direction: column;" makes our flex flow column-oriented
+    header {
+    flex: 0 80px;
+    }
+    - flex 0 means it won't grow, 80px means it is 80 px tall
+
+    footer {
+    flex: 0 30px;
+    }
+
+    main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    }
+    - Flex 1 means it gets 1 proportional unit of growth, and it will fill whatever space isn't filled by the header and footer
+    - flex-direction: row sets the children of the main to be side by side
+    section:nth-child(1) {
+        flex: 1;
+    }
+    section:nth-child(2){
+        flex: 3;
+    }
+    -nth-child(1) tells the machine I am coding specifically for the first subsection
+    -flex 1 means it will fill up the space of 1 unit, while the other will fill the space of 3, 25% and 75% not matter how big the screen is
+- to vertically align text, "do align-items: center"
+        
