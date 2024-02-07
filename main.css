@@ -1,0 +1,9 @@
+menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+li {
+    list-style-type: none;
+}

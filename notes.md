@@ -53,3 +53,9 @@ I learned that GitHub is a SUPER useful tool! I want to be much better at coding
     -flex 1 means it will fill up the space of 1 unit, while the other will fill the space of 3, 25% and 75% not matter how big the screen is
 - to vertically align text, "do align-items: center"
         
+## Startup CSS
+- include the CSS sheet at the top of the html page
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="play.css" />
+- To get rid of the bullet points on a list
+    list-style-type: none;
