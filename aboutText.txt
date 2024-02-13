@@ -1,4 +1,3 @@
-This is a text file that will contain information about the ConsistAndSee Website.
 You have three different options for creating a habit:
 1. Fast   
         Fasts are temporary, but 100% consistent until the end day
