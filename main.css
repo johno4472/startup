@@ -12,3 +12,14 @@ li {
     background-color: lightcoral;
     color: black;
 }
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+    font-size:x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover {
+    color:darkblue;
+}
