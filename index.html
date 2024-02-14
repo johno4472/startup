@@ -22,7 +22,7 @@
     <!-- Use header, main, and footer elements to give semantic structure -->
     <header class="light-red-bg" id="header">
       <nav class="header-main">
-        <h1 class="web-title">ConsistAndSee</h1>        
+        <h1 class="web-title" id="main-title">ConsistAndSee</h1>        
       </nav>
 
       <!-- Navigation elements -->
@@ -32,15 +32,15 @@
     </header>
 
     <main>
-      <h1>Welcome</h1>
+      <h2>Welcome!</h2>
       <p>Login to begin</p>
       <div>
         <input type="text" id="name" placeholder="Your name here" />
       </div>
-      <div>
+      <div class="extra-padding-top">
         <input type="password" placeholder="Password" name="password">
       </div>
-      <div>
+      <div class="extra-padding-top">
         <input type="button" onclick="location.href='report.html';" value="Login">
       </div>
     </main>
