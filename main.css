@@ -115,3 +115,7 @@ footer {
     font-size: 12px;
 }
 
+.make-pretty{
+    margin-bottom: 1em;
+    border-top: 2px solid #ccc;
+}
