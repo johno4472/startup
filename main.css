@@ -119,3 +119,10 @@ footer {
     margin-bottom: 1em;
     border-top: 2px solid #ccc;
 }
+
+#current-page {
+    color: purple;
+    font-style:italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+}
