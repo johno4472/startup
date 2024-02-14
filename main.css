@@ -97,4 +97,21 @@ footer {
     padding-top: 10px;
 }
 
+.main-about{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-space{
+    margin: 1em;
+}
+
+.info-paragraph {
+    font-size: 16px;
+    margin-top: 1em;
+}
+
+.line-of-text {
+    font-size: 12px;
+}
 
