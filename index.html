@@ -35,15 +35,11 @@
     <main>
       <h2>Welcome!</h2>
       <p>Login to begin</p>
-      <div>
-        <input type="text" id="name" placeholder="Your name here" />
-      </div>
-      <div class="extra-padding-top">
-        <input type="password" placeholder="Password" name="password">
-      </div>
-      <div class="extra-padding-top">
-        <input type="button" onclick="login()" value="Login">
-      </div>
+      <form class="make-column" action="javascript:login()">
+        <input type="text" id="name" class="add-margin" placeholder="Your name here" />
+        <input type="password" class="add-margin" placeholder="Password" name="password">
+        <button type="submit" value="Login">Submit</button>
+        </form>
     </main>
 
     <footer>

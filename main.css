@@ -130,3 +130,17 @@ footer {
 button.give-space {
     margin: 1em;
 }
+
+.make-column {
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50%;
+    left: -10em;
+    width: 20em; 
+}
+
+.add-margin {
+    margin: .15em;
+}
