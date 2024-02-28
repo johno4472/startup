@@ -8,6 +8,7 @@
     <link rel="icon" href="canyon.ico" />
 
     <link rel="stylesheet" href="main.css" />
+    <script src="create.js"></script>
 
     <!-- Include bootstrap CSS framework -->
     <link
@@ -50,16 +51,17 @@
       <br />
 
       <div>
-        <label for="count">Habit</label>
-        <input type="text" id="count" placeholder="Your action here" />
+        <label>Habit</label>
+        <input type="text" id="habit" placeholder="Your action here"/>
       </div>
 
       <br />
 
       <div>
-        <input type="button" onclick="location.href='review.html';" value="Submit"/>
+        <input type="button" onclick="addNewHabit()" value="Submit"/>
             </div>
 
+      <ul id="habitReview"></ul>
       <br />
     </main>
     <footer>  
