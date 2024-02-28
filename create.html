@@ -19,12 +19,12 @@
     />
 
   </head>
-  <body class="bg-dark text-light"> 
+  <body class="bg-dark text-light">
     <!-- Use header, main, and footer elements to give semantic structure -->
     <header class="light-red-bg" id="header">
       <nav class="header-top">
         <h1 class="web-title">ConsistAndSee</h1>
-        <div class="username">User: John Olson</div>        
+        <div class="username">User: John Olson</div>
       </nav>
 
       <!-- Navigation elements -->
@@ -50,21 +50,26 @@
       <!-- More formatting with old style HTML -->
       <br />
 
-      <div>
+      <form action="javascript:addNewHabit()">
         <label>Habit</label>
         <input type="text" id="habit" placeholder="Your action here"/>
-      </div>
+        <button type="submit">Submit</button>
+      </form>
 
       <br />
 
       <div>
-        <input type="button" onclick="addNewHabit()" value="Submit"/>
-            </div>
+        
+      </div>
+      <div>
+        <button class="give-space" type="submit" onclick="seeHabits()">See Habits</button>
+      </div>
+
 
       <ul id="habitReview"></ul>
       <br />
     </main>
-    <footer>  
+    <footer>
       <span>Author Name: John Olson</span>
       <br />
       <a href="https://github.com/webprogramming260/simon-html">GitHub</a>

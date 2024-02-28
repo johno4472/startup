@@ -126,3 +126,7 @@ footer {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: bold;
 }
+
+button.give-space {
+    margin: 1em;
+}
