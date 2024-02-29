@@ -39,5 +39,14 @@ Properly styled CSS
 10% Application text content - There is text on every page, but you can see the majority of it on about.html
 10% Application images - You can see the image I have inserted on my about.html page, and I've added a web icon
 
+## JavaScript Deliverable
+- Login form stores your name and puts in on the top right corner
+- On create page, a new habit is added to an array of habits and stored loccally
+- On report page, habit array is pulled from storage and inserted into HTML to report on habits
+- Upon submission of reports, number of days a habit is followed is incremented or decreased
+- On Review page, progress toward the goal of 21 days of consistency is seen using information pulled from the habit array
+- I use Javascript to show messages when there aren't any habits left
+
+
 ## Additional Notes
 https://github.com/johno4472/startup/edit/main/notes.md
