@@ -12,8 +12,8 @@ for (let i = 0; i < habitArray.length; i++) {
     <label for="select">${habitArray[i][0]}</label>
     <br/>
     <li>
-    <progress id="progress" max="31" value="21"></progress>
-    <div>Progress: 21 days!</div>
+    <progress color="yellow" id="progress" max="21" value="${habitArray[i][2]}"></progress>
+    <div>Progress: ${habitArray[i][2]} day(s)!</div>
     </li>
     </div>
   

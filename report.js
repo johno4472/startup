@@ -12,13 +12,27 @@ for (let i = 0; i < habitArray.length; i++) {
     <div>
     <label for="select">${habitArray[i][0]} </label>
     <br/>
-    <select id="select" name="varSelect">
+    <select id="selector-${i}" name="varSelect">
       <option selected>Yes</option>
       <option>No</option>
       <option>NA</option>
     </select>
+    <button type="Submit" id="button-${i}" onclick="increment(${i})">Submit</button>
     </div>
     <br/>`;
     const habitList = document.getElementById("habitReport");
     habitList.appendChild(habitElement);
+}
+
+function increment(i) {
+    const habitSelector = document.getElementById(`selector-${i}`)
+    if (habitSelector.value === "Yes" || habitArray[i][2] === 0) {
+        habitArray[i][2] += 1;
+    }
+    else if (habitSelector.value === "No"){
+        habitArray[i][2] -= 1;
+    }
+    
+    console.log(habitArray[i][2]);
+    localStorage.setItem("arrayOfHabits", JSON.stringify(habitArray));
 }
