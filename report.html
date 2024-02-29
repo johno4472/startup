@@ -23,7 +23,7 @@
     <header class="light-red-bg" id="header">
       <nav class="header-top">
         <h1 class="web-title">ConsistAndSee</h1>
-        <div class="username">User: John Olson</div>        
+        <div id="username" class="username"></div>        
       </nav>
 
       <!-- Navigation elements -->
@@ -42,14 +42,15 @@
     <header class="make-pretty"></header>
 
     <main>
-      <div class="players">
+      <div>
         Respond below whether or not you kept your individual habits today:
       </div>
 
       <!-- More formatting with old style HTML -->
       <br />
+      <div id="habitReport"></div>
 
-      <div>
+<!--      <div>
         <label for="select">Read 1 chapter of the BOM: </label>
         <br/>
         <select id="select" name="varSelect">
@@ -82,7 +83,7 @@
           <option>NA</option>
         </select>
       </div>
-
+-->
       <br />
 
       <div>
@@ -97,4 +98,6 @@
       <a href="https://github.com/webprogramming260/simon-html">GitHub</a>
     </footer>
   </body>
+  <script src="report.js"></script>
+  <script src="main.js"></script>
 </html>

@@ -7,8 +7,9 @@ function addNewHabit() {
 
     localStorage.setItem("personalHabit", habitInput.value);
 //  take array from local storage, parse it, then push my newHabit.value onto the array
-    date = "2/28/24"
-    habitArray.push([habitInput.value, date]);
+    date = "2/28/24";
+    progress = 0;
+    habitArray.push([habitInput.value, date, progress]);
     localStorage.setItem("arrayOfHabits", JSON.stringify(habitArray));
     habitInput.value="";
 //  window.location.href = "create.html";
@@ -22,7 +23,9 @@ function seeHabits() {
 //  probably useless      const myHabit = {element: habitElement, habit: habitArray[i].value, daysProgress: 0};
       
         // Insert the order into the HTML list
-        habitElement.innerHTML = `<span>New Habit: ${habitArray[i][0]} - Date Begun: ${habitArray[i][1]}</span>`;
+        habitElement.innerHTML = `<span>New Habit: ${habitArray[i][0]} - Date Begun: ${habitArray[i][1]}
+        Days of progress: ${habitArray[i][2]}
+        </span>`;
         const habitList = document.getElementById("habitReview");
         habitList.appendChild(habitElement);
     }

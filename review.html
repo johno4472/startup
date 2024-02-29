@@ -23,7 +23,7 @@
     <header class="light-red-bg" id="header">
       <nav class="header-top">
         <h1 class="web-title">ConsistAndSee</h1>
-        <div class="username">User: John Olson</div>        
+        <div id="username" class="username"></div>      
       </nav>
 
       <!-- Navigation elements -->
@@ -48,38 +48,7 @@
 
       <!-- More formatting with old style HTML -->
       <br />
-
-      <div>
-        <label for="select">Read 1 chapter of the BOM: </label>
-        <br/>
-        <li>
-        <progress id="progress" max="31" value="21"></progress>
-        <div>Progress: 21 days!</div>
-      </li>
-      </div>
-      
-      <br/>
-      
-      <div>
-        <label for="select">Run to the gym: </label>
-        <br/>
-        <li>
-        <progress id="progress" max="31" value="15"></progress>
-        <div>Progress: 15 days!</div>
-      </li>
-      </div>
-      
-      <br/>
-      
-      <div>
-        <label for="select">Wear Retainers: </label>
-        <br/>
-        <li>
-        <progress id="progress" max="31" value="3"></progress>
-        <div>Progress: 3 days!</div>
-      </li>
-      </div>
-
+      <div id="habitReview"></div>
       <br />
     </main>
     <footer>  
@@ -88,4 +57,6 @@
       <a href="https://github.com/webprogramming260/simon-html">GitHub</a>
     </footer>
   </body>
+  <script src="review.js"></script>
+  <script src="main.js"></script>
 </html>
