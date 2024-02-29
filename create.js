@@ -9,7 +9,8 @@ function addNewHabit() {
 //  take array from local storage, parse it, then push my newHabit.value onto the array
     date = "2/28/24";
     progress = 0;
-    habitArray.push([habitInput.value, date, progress]);
+    displayReport = 1;
+    habitArray.push([habitInput.value, date, progress, displayReport]);
     localStorage.setItem("arrayOfHabits", JSON.stringify(habitArray));
     habitInput.value="";
 //  window.location.href = "create.html";
