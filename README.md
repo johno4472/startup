@@ -30,5 +30,14 @@ Here are some of the things that I did for the startup HTML
 -about.html gives an explanation of the format of the website, and how things work logistically; it inserts a text taken from the file aboutText.html
 -index.html takes your username, then sends you to report.html when you submit it
 
+## CSS Deliverable
+Properly styled CSS
+30% Header, footer, and main content body - You can see this on every page of my website
+20% Navigation elements - Navigation elements were really helpful in the header, to help my page menu display on a separate row from the WebTitle and username
+10% Responsive to window resizing - You can play around with that and see that I've incorporated flex
+20% Application elements - All of the web page buttons are interactive, so you can jump around the site and explore! I will make the buttons prettier in the future.
+10% Application text content - There is text on every page, but you can see the majority of it on about.html
+10% Application images - You can see the image I have inserted on my about.html page, and I've added a web icon
+
 ## Additional Notes
 https://github.com/johno4472/startup/edit/main/notes.md
