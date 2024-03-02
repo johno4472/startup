@@ -30,6 +30,18 @@ else {
             </div>
             <br/>`;
         }
+
+        else if (habitArray[i][3] === 2) {
+            habitElement.innerHTML = `
+            <div>
+            <img src="mySweetheart.jpg" width="260">
+            </div>
+            <br/>
+            <br/>
+            <iframe src="alyssaText.txt"></iframe>
+            `
+        }
+
         else { 
             console.log(habitArray[i][3])
             habitElement.innerHTML = `
@@ -55,7 +67,10 @@ function increment(i) {
         }
     }
     habitArray[i][3] = 0;
-    console.log(habitArray[i][2]);
+    if (habitArray[i][0] === "snugglewuggle") {
+        habitArray[i][3] = 2;
+    }
+    console.log(habitArray[i][3]);
     localStorage.setItem("arrayOfHabits", JSON.stringify(habitArray))
     window.location.href = "report.html";
 }
