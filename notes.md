@@ -61,3 +61,6 @@ I learned that GitHub is a SUPER useful tool! I want to be much better at coding
     list-style-type: none;
 - Make spaces between children of a list on flex row format:
     gap: 1em;
+
+## Service
+- How do I implement a .gitignore file to run my package.json?
